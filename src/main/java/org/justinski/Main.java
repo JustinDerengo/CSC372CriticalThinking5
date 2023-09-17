@@ -17,6 +17,7 @@ public class Main {
             i++;
         }
 
-
+        productCalculator finalProduct = new productCalculator(0);
+        System.out.println("The product of your five numbers is: " + finalProduct);
     }
 }
